@@ -1,0 +1,9 @@
+{
+  "host": "localhost",
+  "port": 3306,
+  "database": "gittwits",
+  "username": "username",
+  "password": "password",
+  "dialect": "mysql"|"mariadb"|"sqlite"|"postgres"|"mssql", // Choose one
+  "storage": "path/to/database.sqlite" // SQLite Only. Delete if this doesn't apply.
+}
