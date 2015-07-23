@@ -9,7 +9,7 @@ var dbConn = new Sequelize(dbConf.database, dbConf.username, dbConf.password, {
   storage: dbConf.storage || null
 });
 
-var Twit = require('../models/twit.model')(dbConn);
+var Twit = require('gittwits-models').Twit(Sequelize, dbConn);
 
 var syncPromise = dbConn.sync();
 dbConn.ready = function() {

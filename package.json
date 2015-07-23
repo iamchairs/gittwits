@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "records mentions to the db",
   "main": "app.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "github": "^0.2.4",
+    "gittwits-models": "git+https://github.com/iamchairs/gittwits-models.git",
     "moment": "^2.10.3",
     "mysql": "^2.8.0",
     "q": "^1.4.1",
